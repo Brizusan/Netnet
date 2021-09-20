@@ -1,0 +1,50 @@
+.button{
+    border: 1px solid blue;  
+    background: var(--white);
+    color: var(--black);
+    border: none;  
+    display: flex; 
+    align-items: center;
+    padding: 5px 1em 5px .5em;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
+.button::before{
+    content: '';    
+    /* border: 1px solid green; */
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;  
+    /* margin-bottom: 5px;     */
+}
+
+.button-secondary{
+    /* border: 1px solid red;  */
+    color: var(--white);
+    background: transparent;
+    border: none;   
+    font-size: 1.1em;
+    cursor: pointer; 
+    min-width: 100px;
+}
+
+.button-secondary::before{
+    content: '';
+    display:block;
+    /* border: 1px solid green; */
+    width: 25px;
+    height: 25px;
+    margin:auto;
+    margin-bottom: 5px;
+
+}
+.icon-plus::before{
+    background: url('../assets/icons/plus.svg') ;
+}
+.icon-info::before{
+    background: url('../assets/icons/info.svg') ;       
+}
+.icon-play::before{
+    background: url('../assets/icons/play.svg');
+}

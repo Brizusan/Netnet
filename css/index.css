@@ -1,0 +1,40 @@
+
+@import url('fonts.css');
+@import url('header.css');
+@import url('buttons.css');
+@import url('featured.css');
+@import url('footer.css');
+@import url('main.css');
+
+:root{
+    
+    --fontBase:'Netflix Sans', sans-serif;
+    --white: #ffffff; 
+    --grey: #686868; 
+    --black: #000000; 
+    --red: #d22f26; 
+    --subtitle1: 700 1.09375rem/normal var(--fontBase); 
+    --headline1: 700 1.708984375rem/normal var(--fontBase); 
+    --button: demi bold 0.699999988079071rem/normal var(--fontBase); 
+    --body1-demibold: demi bold 0.875rem/1.5rem var(--fontBase); 
+    --body1-regular: 400 0.875rem/1.5rem var(--fontBase); 
+    --body2-demibold: demi bold 0.699999988079071rem/normal var(--fontBase); 
+    --body2-regular: 400 0.699999988079071rem/normal var(--fontBase); 
+}
+
+*{    
+    font: var(--fontBase);
+}
+
+h2{
+    font-weight: 900;
+    font-size: 1.3em;
+    letter-spacing: .8px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:var(--black);
+    color: var(--white);
+    font-family: var(--fontBase);
+}

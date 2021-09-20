@@ -1,0 +1,23 @@
+main{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list-content{
+    /* border: 10px solid blue; */
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.list-item{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+.list-item:first-child{
+    margin: 0;
+}
+.list{
+    padding: 0 1em;
+}
